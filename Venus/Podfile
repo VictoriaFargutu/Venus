@@ -1,0 +1,5 @@
+# Pods for Venus
+
+target 'Venus' do
+  pod 'Alamofire', '5.0.4'
+end

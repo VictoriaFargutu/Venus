@@ -1,0 +1,6 @@
+module Pods_Venus {
+  umbrella header "Pods-Venus-umbrella.h"
+
+  export *
+  module * { export * }
+}

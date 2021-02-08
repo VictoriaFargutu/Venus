@@ -10,14 +10,58 @@
 		8A7150E825D120B100A3576E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7150E725D120B100A3576E /* AppDelegate.swift */; };
 		8A7150EE25D120B300A3576E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7150ED25D120B300A3576E /* Assets.xcassets */; };
 		8A7150F425D120B300A3576E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7150F225D120B300A3576E /* LaunchScreen.storyboard */; };
+		8A71510F25D12B7A00A3576E /* VenuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71510E25D12B7A00A3576E /* VenuesView.swift */; };
+		8A71511225D12B9400A3576E /* VenuesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71511125D12B9400A3576E /* VenuesTableViewCell.swift */; };
+		8A71511525D12BCC00A3576E /* VenuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71511425D12BCC00A3576E /* VenuesViewController.swift */; };
+		8A71511825D12BE300A3576E /* VenuesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71511725D12BE300A3576E /* VenuesViewModel.swift */; };
+		8A71511B25D12C0800A3576E /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71511A25D12C0800A3576E /* Meta.swift */; };
+		8A71511E25D12C1900A3576E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71511D25D12C1900A3576E /* Response.swift */; };
+		8A71512425D12D9F00A3576E /* AlamofireAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71512325D12D9F00A3576E /* AlamofireAPI.swift */; };
+		8A71512725D12DBB00A3576E /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71512625D12DBB00A3576E /* ApiResponse.swift */; };
+		8A71512A25D12DE700A3576E /* Alamofire+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71512925D12DE700A3576E /* Alamofire+Extensions.swift */; };
+		8A71512E25D12E1600A3576E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71512D25D12E1600A3576E /* Logger.swift */; };
+		8A71513225D12E5400A3576E /* VenueRecommendationsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71513125D12E5400A3576E /* VenueRecommendationsModels.swift */; };
+		8A71513525D12EC100A3576E /* VenueRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71513425D12EC100A3576E /* VenueRequestModel.swift */; };
+		8A71513825D12ED500A3576E /* RepositoryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71513725D12ED500A3576E /* RepositoryResult.swift */; };
+		8A71513B25D12EE700A3576E /* VenuesRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71513A25D12EE700A3576E /* VenuesRemoteDataSource.swift */; };
+		8A71513F25D12F1F00A3576E /* VenueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71513E25D12F1F00A3576E /* VenueRepository.swift */; };
+		8A71514225D12F5000A3576E /* VenuesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71514125D12F5000A3576E /* VenuesService.swift */; };
+		8A71514525D12F6300A3576E /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71514425D12F6300A3576E /* VenueModel.swift */; };
+		8A71514A25D12F9600A3576E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71514925D12F9600A3576E /* AppError.swift */; };
+		8A71514E25D12FBF00A3576E /* RadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71514D25D12FBF00A3576E /* RadiusView.swift */; };
+		8A71515125D12FCA00A3576E /* RadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A71515025D12FCA00A3576E /* RadiusViewController.swift */; };
+		F74271C2C1C0F08E4298EE5E /* libPods-Venus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584F125ADDC4AE38E21E84A8 /* libPods-Venus.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41E4B0654422D942B618C03B /* Pods-Venus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venus.debug.xcconfig"; path = "Target Support Files/Pods-Venus/Pods-Venus.debug.xcconfig"; sourceTree = "<group>"; };
+		584F125ADDC4AE38E21E84A8 /* libPods-Venus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Venus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7150E425D120B100A3576E /* Venus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7150E725D120B100A3576E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A7150ED25D120B300A3576E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A7150F325D120B300A3576E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A7150F525D120B300A3576E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A71510E25D12B7A00A3576E /* VenuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesView.swift; sourceTree = "<group>"; };
+		8A71511125D12B9400A3576E /* VenuesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesTableViewCell.swift; sourceTree = "<group>"; };
+		8A71511425D12BCC00A3576E /* VenuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesViewController.swift; sourceTree = "<group>"; };
+		8A71511725D12BE300A3576E /* VenuesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesViewModel.swift; sourceTree = "<group>"; };
+		8A71511A25D12C0800A3576E /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		8A71511D25D12C1900A3576E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		8A71512325D12D9F00A3576E /* AlamofireAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAPI.swift; sourceTree = "<group>"; };
+		8A71512625D12DBB00A3576E /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		8A71512925D12DE700A3576E /* Alamofire+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extensions.swift"; sourceTree = "<group>"; };
+		8A71512D25D12E1600A3576E /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		8A71513125D12E5400A3576E /* VenueRecommendationsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRecommendationsModels.swift; sourceTree = "<group>"; };
+		8A71513425D12EC100A3576E /* VenueRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRequestModel.swift; sourceTree = "<group>"; };
+		8A71513725D12ED500A3576E /* RepositoryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryResult.swift; sourceTree = "<group>"; };
+		8A71513A25D12EE700A3576E /* VenuesRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesRemoteDataSource.swift; sourceTree = "<group>"; };
+		8A71513E25D12F1F00A3576E /* VenueRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRepository.swift; sourceTree = "<group>"; };
+		8A71514125D12F5000A3576E /* VenuesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesService.swift; sourceTree = "<group>"; };
+		8A71514425D12F6300A3576E /* VenueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueModel.swift; sourceTree = "<group>"; };
+		8A71514925D12F9600A3576E /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		8A71514D25D12FBF00A3576E /* RadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusView.swift; sourceTree = "<group>"; };
+		8A71515025D12FCA00A3576E /* RadiusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusViewController.swift; sourceTree = "<group>"; };
+		C8AAC5840CF14AE84319D7A7 /* Pods-Venus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venus.release.xcconfig"; path = "Target Support Files/Pods-Venus/Pods-Venus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74271C2C1C0F08E4298EE5E /* libPods-Venus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA3873DECE8D909827FBAC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584F125ADDC4AE38E21E84A8 /* libPods-Venus.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46B5D57002355D1E7B1E5754 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41E4B0654422D942B618C03B /* Pods-Venus.debug.xcconfig */,
+				C8AAC5840CF14AE84319D7A7 /* Pods-Venus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8A7150DB25D120B100A3576E = {
 			isa = PBXGroup;
 			children = (
 				8A7150E625D120B100A3576E /* Venus */,
 				8A7150E525D120B100A3576E /* Products */,
+				46B5D57002355D1E7B1E5754 /* Pods */,
+				1CA3873DECE8D909827FBAC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +125,7 @@
 		8A7150FC25D124C500A3576E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8A71512C25D12E0E00A3576E /* Util */,
 				8A7150E725D120B100A3576E /* AppDelegate.swift */,
 				8A7150ED25D120B300A3576E /* Assets.xcassets */,
 				8A7150F225D120B300A3576E /* LaunchScreen.storyboard */,
@@ -72,6 +137,7 @@
 		8A7150FF25D124ED00A3576E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				8A71514C25D12FB100A3576E /* Radius */,
 				8A71510225D1252200A3576E /* Venues */,
 			);
 			path = Presentation;
@@ -81,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				8A71510325D1252B00A3576E /* Venues */,
+				8A71514825D12F8A00A3576E /* Utils */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -98,6 +165,10 @@
 		8A71510225D1252200A3576E /* Venues */ = {
 			isa = PBXGroup;
 			children = (
+				8A71510E25D12B7A00A3576E /* VenuesView.swift */,
+				8A71511125D12B9400A3576E /* VenuesTableViewCell.swift */,
+				8A71511425D12BCC00A3576E /* VenuesViewController.swift */,
+				8A71511725D12BE300A3576E /* VenuesViewModel.swift */,
 			);
 			path = Venues;
 			sourceTree = "<group>";
@@ -105,6 +176,8 @@
 		8A71510325D1252B00A3576E /* Venues */ = {
 			isa = PBXGroup;
 			children = (
+				8A71514425D12F6300A3576E /* VenueModel.swift */,
+				8A71514125D12F5000A3576E /* VenuesService.swift */,
 			);
 			path = Venues;
 			sourceTree = "<group>";
@@ -113,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				8A71510725D1256400A3576E /* Venue */,
+				8A71513725D12ED500A3576E /* RepositoryResult.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -120,6 +194,8 @@
 		8A71510525D1253A00A3576E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8A71513125D12E5400A3576E /* VenueRecommendationsModels.swift */,
+				8A71513425D12EC100A3576E /* VenueRequestModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,6 +203,11 @@
 		8A71510625D1254F00A3576E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8A71511A25D12C0800A3576E /* Meta.swift */,
+				8A71511D25D12C1900A3576E /* Response.swift */,
+				8A71512325D12D9F00A3576E /* AlamofireAPI.swift */,
+				8A71512625D12DBB00A3576E /* ApiResponse.swift */,
+				8A71512925D12DE700A3576E /* Alamofire+Extensions.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -134,8 +215,35 @@
 		8A71510725D1256400A3576E /* Venue */ = {
 			isa = PBXGroup;
 			children = (
+				8A71513E25D12F1F00A3576E /* VenueRepository.swift */,
+				8A71513A25D12EE700A3576E /* VenuesRemoteDataSource.swift */,
 			);
 			path = Venue;
+			sourceTree = "<group>";
+		};
+		8A71512C25D12E0E00A3576E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8A71512D25D12E1600A3576E /* Logger.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8A71514825D12F8A00A3576E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A71514925D12F9600A3576E /* AppError.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A71514C25D12FB100A3576E /* Radius */ = {
+			isa = PBXGroup;
+			children = (
+				8A71514D25D12FBF00A3576E /* RadiusView.swift */,
+				8A71515025D12FCA00A3576E /* RadiusViewController.swift */,
+			);
+			path = Radius;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7150F825D120B300A3576E /* Build configuration list for PBXNativeTarget "Venus" */;
 			buildPhases = (
+				B5FFC8EAA92311A62AE83192 /* [CP] Check Pods Manifest.lock */,
 				8A7150E025D120B100A3576E /* Sources */,
 				8A7150E125D120B100A3576E /* Frameworks */,
 				8A7150E225D120B100A3576E /* Resources */,
@@ -202,12 +311,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B5FFC8EAA92311A62AE83192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Venus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A7150E025D120B100A3576E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A71513225D12E5400A3576E /* VenueRecommendationsModels.swift in Sources */,
+				8A71515125D12FCA00A3576E /* RadiusViewController.swift in Sources */,
+				8A71510F25D12B7A00A3576E /* VenuesView.swift in Sources */,
+				8A71514A25D12F9600A3576E /* AppError.swift in Sources */,
+				8A71513B25D12EE700A3576E /* VenuesRemoteDataSource.swift in Sources */,
+				8A71514525D12F6300A3576E /* VenueModel.swift in Sources */,
+				8A71513F25D12F1F00A3576E /* VenueRepository.swift in Sources */,
+				8A71513825D12ED500A3576E /* RepositoryResult.swift in Sources */,
+				8A71512E25D12E1600A3576E /* Logger.swift in Sources */,
+				8A71511825D12BE300A3576E /* VenuesViewModel.swift in Sources */,
+				8A71512A25D12DE700A3576E /* Alamofire+Extensions.swift in Sources */,
+				8A71514E25D12FBF00A3576E /* RadiusView.swift in Sources */,
+				8A71511B25D12C0800A3576E /* Meta.swift in Sources */,
+				8A71513525D12EC100A3576E /* VenueRequestModel.swift in Sources */,
+				8A71511225D12B9400A3576E /* VenuesTableViewCell.swift in Sources */,
+				8A71511525D12BCC00A3576E /* VenuesViewController.swift in Sources */,
 				8A7150E825D120B100A3576E /* AppDelegate.swift in Sources */,
+				8A71512725D12DBB00A3576E /* ApiResponse.swift in Sources */,
+				8A71511E25D12C1900A3576E /* Response.swift in Sources */,
+				8A71512425D12D9F00A3576E /* AlamofireAPI.swift in Sources */,
+				8A71514225D12F5000A3576E /* VenuesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +497,7 @@
 		};
 		8A7150F925D120B300A3576E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E4B0654422D942B618C03B /* Pods-Venus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -363,6 +518,7 @@
 		};
 		8A7150FA25D120B300A3576E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AAC5840CF14AE84319D7A7 /* Pods-Venus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
